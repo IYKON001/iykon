@@ -1,0 +1,22 @@
+.doc{
+   
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 16px solid rgb(121, 138, 121);
+    margin: 50px;
+    border-top: 16px solid rgb(24, 8, 8);
+    animation-name: col;
+    animation-iteration-count: infinite;
+    animation-duration:1s;
+    position: absolute;
+    top: 30vh;
+    left: 85vh;
+}
+.doc{
+    animation-timing-function: linear;
+}
+@keyframes col {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
